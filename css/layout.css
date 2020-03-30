@@ -1,0 +1,36 @@
+
+header h1
+{
+    margin-bottom: 20px;
+}
+.hourse-box {
+    display: inline-block;
+    margin-bottom: 10%;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+#photo-template
+{
+    margin-bottom: 20%;
+}
+#photo-template img {
+    width: 80%;
+    border: 3px solid yellow;
+    height: 300px;
+}
+#photo-template p
+{
+    font-size: 15px;
+}
+.photo
+{
+    margin-bottom: 0 !important;
+}
+body
+{
+    font-size: 20px;
+    text-align: center;
+}
+

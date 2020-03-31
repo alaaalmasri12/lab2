@@ -5,34 +5,63 @@
   <head>
     <title>The Gallery of Horns</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/layout.css" type="text/css">
     <link rel="stylesheet" href="css/module.css" type="text/css">
+  </head>
+  <style>
+   
+  </style>
+  <body>
+   
+    <script id="template" type="x-tmpl-mustache">
+      
+      <div class="page-box">
+          <h2 class="page-title">{{title}}</h2>
+          <img class="page-img" src="{{image}}" alt="">
+          <p>{{description}}</p>
+      </div>
 
-
+  
+    </script>
 
     <header>
       <h1>The Gallery of Horns</h1>
       <select>
         <option id="horn-list" value="default">Filter by Keyword</option>
       </select>
+      <br>
+      <select>
+        <option id="filter-list" value="asdsad">Sort</option>
+      </select>
+      <div class="filter-dropdown">
+      
+      </div>
+      <br>
+      <button id="page1" value='page-1'>Page1</button>
+      <button id="page2" value='page-2'>Page2</button>
+
+
+
     </header>
     <main>
-      <section id="photo-template" class="photo">
+      <section class="asdas" id="photo-template" class="photo">
         <h2 class="horn-title"></h2>
         <img class="hourse-img" src="" alt="">
         <p></p>
       </section>
+      <section id="page-images">
 
+        </section>
     </main>
     <footer>
       &copy; 2018 Code Fellows
     </footer>
+    <script src="https://unpkg.com/mustache@latest"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/app.js"></script>
     
   </body>
+  
 </html>
